@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+   <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TaiderMyk Calc</title>
+</head>
+<style> button {
+   color: blue;
+   border-radius: 20px;
+   font-family: 'Arial', serif;
+   background-color: grey;
+}
+input {color: blue;
+background-color: yellow;   
+}
+h1 {
+   background-color: black;
+   height: 800px;
+   border-radius: 10px;
+   color: white;
+   font-size: 5mm;
+   /* margin-left: 40px;
+   margin-top: 60px;*/
+}
+</style>
+<body>
+ 
+<h1> <!-- <p><div id="upperName" style="font-family: 'Courier New', monospace;
+   text-align: center;"></div></p>
+
+<script>
+    let word = `Taider calculator is owned by Kym...`;  // Word to be spelled
+    let index = 0;  // Starting index to spell the word
+    let intervalTime = 150; // Interval time in milliseconds (e.g., 500ms = 0.5 seconds)
+    let displayElement = document.getElementById('upperName');
+
+    function displayWord() {
+        displayElement.innerHTML = word.slice(0, index + 1);  // Display the word up to the current index
+        index++;
+
+        if (index === word.length) {
+            index = 0;
+        // displayElement.innerHTML = word.slice(0, index + 1);
+        // index-- ;           // Reset the index to start from the beginning again
+        }
+    }
+// Set interval to display the word's letters consecutively every 500ms
+    setInterval(displayWord, intervalTime);
+</script>-->
+   <p><div id="yes"></div><input id="inputField" style="
+        height: 100px;
+     width: 400px;
+     margin-left: 40px;
+      margin-top: 24px;
+     font-size: 8mm;
+      text-align: right;
+     border-radius: 20px;
+      font-family: 'Courier New', monospace;" placeholder="0"></p> 
+      <button style="
+    margin-left: 40px;
+    margin-top: 0px;
+    width: 80px;
+    height: 100px;
+    font-size: 10mm;"
+      onclick="document.getElementById('inputField').value += '1'
+    "><b>1</b></button>
+    <button style="
+    margin-left: 20px;
+    margin-top: 0px;
+    width: 80px;
+    height: 100px;
+    font-size: 10mm;"
+       onclick="document.getElementById('inputField').value = document.getElementById('inputField').value.slice(0, -1)"><b>D</b></button>
+    <button style="
+    margin-left: 20px;
+    margin-top: 0px;
+    width: 80px;
+    height: 100px;
+    font-size: 10mm;"
+       onclick="document.getElementById('inputField').value = ''"><b>C</b></button>
+       
+      <button style="
+    margin-left: 40px;
+    margin-top: 0px;
+    width: 80px;
+    height: 100px;
+    font-size: 10mm;
+    "
+       onclick="document.getElementById('inputField').value += '2'"><b>2</b></button>
+      <button style="
+    margin-left: 38px;
+    margin-top: 0px;
+    width: 80px;
+    height: 100px;
+    font-size: 10mm;
+    " onclick="document.getElementById('inputField').value += '3'"><b>3</b></button>
+   <button style="
+    margin-left: 40px;
+    margin-top: 4px;
+    width: 160px;
+    height: 140px;
+    font-size: 10mm;
+    " onclick="
+            let Answ = (document.getElementById('inputField').value = eval(document.getElementById('inputField').value))
+           let errorOne = (1/0);
+       if (Answ == errorOne) {
+       document.getElementById('inputField').value = 'Math Error';
+       } 
+     else  if (Answ === 0741311042) {
+//statements Javascript by kydertai .This code has being programmed by anew website developer and should consider respect 
+function myQuiz() {
+  let askName = prompt('Whats Your Name', '');
+ let userConfirm = (`${askName}` >= 0);
+   document.getElementById('inputField').value = 'Message To You:::',askName;
+// alert(userConfirm)
+if (userConfirm == false) {
+  let askFullName = prompt(`Derick's Full name
+  1. DERRICK KIMUTAI CHIRCHIR
+  2. DERICK CHIRCHIR KIMUTAI
+  3. CHIRCHIR KIMUTAI
+  4. DERICK KIMUTAI
+  5. DERICK CHIRCHIR`, '');
+  let askFavoriteFood = prompt(`Derick's Favorite Food/drink
+  1. Milk
+  2. Ugali
+  3. Rice
+  4. Potatoes
+  5. Mandazi & Chapati
+  6. Juice`, '');
+  let askHatedFood = prompt(`Derick Hates which Foods
+  1. Kales(Sour Types)
+  2. Arrow Roots
+  3. Pumpkins
+  4. Sweet potatoes`, '');
+  let askFiance = prompt(`Dericks Fiancé starts with letter? In capital`, '');
+  let askNumber = prompt('Dericks lucky Number', '');
+  
+if (askFullName === '3' && askFavoriteFood === '1' &&
+askHatedFood === '3' && askFiance === 'J' && askNumber == '48') {
+  alert('WOW! ✨YOU GOT ALL CORRECT✨');
+let askPassword = prompt(
+`SINCE YOU ARE CORRECT INPUT PASSWORD ,TO UNHIDE THE MESSAGE
+Password Hint (DDMMYYYY)`, '');
+if (askPassword === '16112005') {
+  let word = `I LOVE YOU💕🥳💞, ${askName} 💞💓💕 YOU ONLY CAN OPEN THIS!`;  // Word to be spelled
+    let index = 0;  // Starting index to spell the word
+    let intervalTime = 80; // Interval time in milliseconds (e.g., 500ms = 0.5 seconds)
+    let displayElement = document.getElementById('yes');
+
+    function displayWord() {
+        displayElement.innerHTML = word.slice(0, index + 1);  // Display the word up to the current index
+        index++
+
+        if (index === word.length) {
+            index = 0;
+        // displayElement.innerHTML = word.slice(0, index + 1);
+        // index-- ;           // Reset the index to start from the beginning again
+        }
+    }
+// Set interval to display the word's letters consecutively every 500ms
+    setInterval(displayWord, intervalTime);
+    //   document.getElementById('inputField').value = word;
+}
+  else {
+    alert('WRONG PASSWORD!')
+  }
+}
+  else {
+  alert('Oops, You got Some correct and Some Incorrect');
+}
+}
+else if (askName === null || '' ) {
+  alert('INVALID NAME');
+}
+  else {
+    alert('Invalid');
+    return myQuiz();
+    
+}
+}
+myQuiz();
+//kimTaider
+} "><b>=</b></button>  
+    <button style="
+    margin-left: 40px;
+    margin-top: 0px;
+    width: 80px;
+    height: 100px;
+    font-size: 10mm;
+      " onclick="document.getElementById('inputField').value += '4'"><b>4</b></button>
+    <button style="
+    margin-left: 40px;
+    margin-top: 0px;
+    width: 80px;
+    height: 100px;
+    font-size: 10mm;
+    " onclick="document.getElementById('inputField').value += '5'"><b>5</b></button>
+    <button style="
+    margin-left: 80px;
+    margin-top: 0px;
+    width: 80px;
+    height: 100px;
+    font-size: 10mm;
+    " onclick="document.getElementById('inputField').value += '6'"><b>6</b></button>
+    <button style="
+    margin-left: 80px;
+    margin-top: 4px;
+    width: 80px;
+    height: 100px;
+    font-size: 10mm;
+      " onclick="document.getElementById('inputField').value += '7'"><b>7</b></button>
+
+    <button style="
+    margin-left: 40px;
+    margin-top: 0px;
+    width: 80px;
+    height: 100px;
+    font-size: 10mm;
+    " onclick="document.getElementById('inputField').value += '8'"><b>8</b></button>
+     <button style="
+    margin-left: 80px;
+    margin-top: 0px;
+    width: 80px;
+    height: 100px;
+    font-size: 10mm;
+    "onclick="document.getElementById('inputField').value += '9'"><b>9</b></button>
+    <button style="
+    margin-left: 80px;
+    margin-top: 8px;
+    width: 80px;
+    height: 100px;
+    font-size: 10mm;
+    " onclick="document.getElementById('inputField').value += '0'"><b>0</b></button>
+
+    <button style="
+    margin-left: 44px;
+    margin-top: 8px;
+    width: 80px;
+    height: 100px;
+    font-size: 10mm;
+    " onclick="document.getElementById('inputField').value += '*'"><b>x</b></button>
+    <button style="
+    margin-left: 20px;
+    margin-top: 8px;
+    width: 80px;
+    height: 100px;
+    font-size: 10mm;
+    " onclick="document.getElementById('inputField').value += '-'"><b>-</b></button>
+
+    <button style="
+    margin-left: 20px;
+    margin-top: 8px;
+    width: 80px;
+    height: 100px;
+    font-size: 10mm;
+    "onclick="document.getElementById('inputField').value += '+'"><b>+</b></button>
+    <button style="
+    margin-left: 20px;
+    margin-top: 8px;
+    width: 80px;
+    height: 100px;
+    font-size: 10mm;
+    " onclick="document.getElementById('inputField').value += '/'"><b>÷</b></button>
+
+
+   </h1>
+   <footer style="text-align: center;
+      background-color: white;
+      height: 140px;">
+      <p style="font-size: 9mm;
+         font-family: 'Brush Script MT', cursive;"><b>Taider Myk Calculator</b></p>
+      <p>&copy; 2025 Myk</p>
+      <p>ALL RIGHTS RESERVED</p>
+      <p style="font-size: 1mm;
+         margin-top: 70px;">v.025d</p>
+   </footer>
+    <p><div id="wordDisplay" style="font-family: 'Courier New', monospace;"></div></p>
+
+<script>
+    let word = `Thanks For the Support. Much appreciation from Taider Myk
+Owner https://t.me/@taider_myk...May GOD be with you.......`;  // Word to be spelled
+    let index = 0;  // Starting index to spell the word
+    let intervalTime = 80; // Interval time in milliseconds (e.g., 500ms = 0.5 seconds)
+    let displayElement = document.getElementById('wordDisplay');
+
+    function displayWord() {
+        displayElement.innerHTML = word.slice(0, index + 1);  // Display the word up to the current index
+        index++;
+
+        if (index === word.length) {
+            index = 0;
+        // displayElement.innerHTML = word.slice(0, index + 1);
+        // index-- ;           // Reset the index to start from the beginning again
+        }
+    }
+// Set interval to display the word's letters consecutively every 500ms
+    setInterval(displayWord, intervalTime);
+</script>
+</body>
+</html>

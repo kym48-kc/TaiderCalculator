@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-   <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
- <!-- <title>README FILE</title>-->
-</head>
-<body>
-<!--
+ <!--
  ▄▄▄▄▄▄▄▄               ██           ▄▄
  ▀▀▀██▀▀▀               ▀▀           ██
     ██      ▄█████▄   ████      ▄███▄██
@@ -33,5 +25,3 @@ height: 70px;
 border: 10px;
 border-radius: 20px;"> <a
  style="/*color: white;*/"  href='indexTaidcalc.html'>TAID MYKJ Calc</a></button></h1>
-</body>
-</html>

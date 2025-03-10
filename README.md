@@ -1,5 +1,4 @@
-<img style="
-  margin-left: -20px;"src="https://files.catbox.moe/98o9ph.png"><button style="
+<img src="https://files.catbox.moe/98o9ph.png"><button style="
 background-color: grey;
 height: 70px;
   font-size: 2em;

@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-
+ <!DOCTYPE html>
 <html>
 <head>
    <meta charset="UTF-8">
@@ -7,43 +6,71 @@
   <title>TaiderMyk Calc</title>
 </head>
 <style> button {
-   color: blue;
+   color: white;
    border-radius: 20px;
    font-family: 'Arial', serif;
-   background-color: grey;
+   background-color: #131D24;
+   border: 10px;
 }
-input {color: blue;
-background-color: yellow;   
+input {color: black;
+background-color: white;   
+}
+#inputField {
+   color: white;
 }
 h1 {
-   background-color: black;
+   background-color: #131D24;
    height: 800px;
    border-radius: 10px;
    color: white;
    font-size: 5mm;
-   /* margin-left: 40px;
-   margin-top: 60px;*/
+   /* margin-left: 40px;*/
+   margin-top: -30px;
+}
+#homeB, #aboutB, #whatsappB, #telegramB {
+          width: 80px;
+          color: white;
+          height: 40px;
+          margin-left: 20px;
+          border-radius: 20px;
+    margin-top: 10px;
+    border: 10px;
 }
 </style>
 <body>
- 
+       <header style="background-color: grey;
+        height: 70px;
+        width: 100%;
+        
+        display: inline-block;">
+    <nav>
+        <a href="indexTaidcalc.html"><button id="homeB" style="background-color: blue;
+            margin-left: 60px;">Home</button></a>
+        <a href="https://files.catbox.moe/98o9ph.png"><button id="aboutB" style="background-color: darkblue">About</button></a>
+        <a href="https://t.me/anonym_tech"><button id="telegramB" style="background-color: violet;">Telegram</button></a>
+        <a href="https://chat.whatsapp.com/Fy6kMEoqwOl8lLQC51o5Mo"><button id="whatsappB" style="background-color: green;">Whatsapp</button></a>
+    </nav>
+    </header>
 <h1>
-   <p><div id="yes"></div><input id="inputField" style="
-        height: 100px;
+   <p id="displayMsg" style="color: grey;"><div style="font-family: 'Arial', serif;" id="yes"></div><input id="inputField" style="
+        height: 150px;
      width: 400px;
      margin-left: 40px;
       margin-top: 24px;
-     font-size: 8mm;
+      border: 10px;
+     font-size: 15mm;
+      background-color: #131D24;
       text-align: right;
      border-radius: 20px;
-      font-family: 'Courier New', monospace;" placeholder="0"></p> 
-      <button style="
+      font-family:  'Arial', serif;" placeholder="0"></p> 
+      <button id="One" style="
     margin-left: 40px;
     margin-top: 0px;
     width: 80px;
     height: 100px;
     font-size: 10mm;"
       onclick="document.getElementById('inputField').value += '1'
+        // document.getElementById('One').style.backgroundColor = 'yellow';
     "><b>1</b></button>
     <button style="
     margin-left: 20px;
@@ -75,7 +102,7 @@ h1 {
     height: 100px;
     font-size: 10mm;
     " onclick="document.getElementById('inputField').value += '3'"><b>3</b></button>
-   <button style="
+   <button id="answer" style="
     margin-left: 40px;
     margin-top: 4px;
     width: 160px;
@@ -86,13 +113,14 @@ h1 {
            let errorOne = (1/0);
        if (Answ == errorOne) {
        document.getElementById('inputField').value = 'Math Error';
-       } 
+       }
      else  if (Answ === 0741311042) {
 //statements Javascript by kydertai .This code has being programmed by anew website developer and should consider respect 
 function myQuiz() {
-  let askName = prompt('Whats Your Name', '');
+      let askName = prompt('WHATS YOUR NAME', '');
+ document.getElementById('inputField').innerHTML  = askName;
  let userConfirm = (`${askName}` >= 0);
-   document.getElementById('inputField').value = 'Message To You:::',askName;
+   document.getElementById('inputField').innerHTML = 'Hi!';
 // alert(userConfirm)
 if (userConfirm == false) {
   let askFullName = prompt(`Derick's Full name
@@ -123,7 +151,7 @@ let askPassword = prompt(
 `SINCE YOU ARE CORRECT INPUT PASSWORD ,TO UNHIDE THE MESSAGE
 Password Hint (DDMMYYYY)`, '');
 if (askPassword === '16112005') {
-  let word = `I LOVE YOU💕🥳💞, ${askName} 💞💓💕 YOU ONLY CAN OPEN THIS!`;  // Word to be spelled
+  let word = `${askName} 👩‍💻📤 YOU ONLY CAN OPEN THIS!`;  // Word to be spelled
     let index = 0;  // Starting index to spell the word
     let intervalTime = 80; // Interval time in milliseconds (e.g., 500ms = 0.5 seconds)
     let displayElement = document.getElementById('yes');
@@ -141,6 +169,8 @@ if (askPassword === '16112005') {
 // Set interval to display the word's letters consecutively every 500ms
     setInterval(displayWord, intervalTime);
     //   document.getElementById('inputField').value = word;
+      document.getElementById('inputField').innerHTML = 'Hi!';
+
 }
   else {
     alert('WRONG PASSWORD!')
@@ -161,7 +191,8 @@ else if (askName === null || '' ) {
 }
 myQuiz();
 //kimTaider
-} "><b>=</b></button>  
+} "><b>ANS
+</b></button>  
     <button style="
     margin-left: 40px;
     margin-top: 0px;
@@ -260,7 +291,7 @@ myQuiz();
 <script>
     let word = `Thanks For the Support. Much appreciation from Taider Myk
 Owner https://t.me/@taider_myk...May GOD be with you.......`;  // Word to be spelled
-    let index = 0;  // Starting index to spell the word
+    let index = 0;  //  index to spell the word
     let intervalTime = 80; // Interval time in milliseconds (e.g., 500ms = 0.5 seconds)
     let displayElement = document.getElementById('wordDisplay');
 
